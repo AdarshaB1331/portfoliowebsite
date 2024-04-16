@@ -25,7 +25,7 @@ const Home = () => {
       <img
         className="spin" // Apply the spin class here
         style={{marginLeft:'1000px',marginTop:'-530px',width:'250px'}}
-        src="/public/effect-2.svg"
+        src="public/effect-2.svg"
         alt="Shape"
       />
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '0px' ,marginLeft:"390px"}}>
