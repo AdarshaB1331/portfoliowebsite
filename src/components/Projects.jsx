@@ -1,5 +1,5 @@
 import React from 'react'
-
+import effectImage from './visionary-programming-coding-future-software_31965-57947.jpg'; // Import the SVG image from the same folder
 const Projects = () => {
   return (
     <> 
@@ -9,7 +9,7 @@ const Projects = () => {
   </div>
   
   <div className="card" style={{width: '24rem', marginLeft:'190px', marginTop:'90px',borderWidth:'7px' ,borderStyle:'solid',borderColor:'white'}} onMouseEnter="this.style.boxShadow='0 4px 8px 0 rgba(0,0,0,0.2)', this.style.transform='scale(1.05)'" onMouseLeave="this.style.boxShadow='none', this.style.transform='scale(1)'">
-  <img src="./public/visionary-programming-coding-future-software_31965-57947.jpg" className="card-img-top" alt="..."/>
+  <img src={effectImage} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Ecommerce Website</h5>
     <p style={{color:'black'}} className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
